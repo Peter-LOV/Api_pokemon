@@ -10,3 +10,28 @@
     transform: translateY(0);
   }
 }
+
+@keyframes orbFloatA {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(70px, -50px) scale(1.15); }
+}
+
+@keyframes orbFloatB {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-60px, 60px) scale(1.1); }
+}
+
+@keyframes orbFloatC {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(50px, 70px) scale(1.2); }
+}
+
+@keyframes drawerIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes scrimIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
